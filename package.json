@@ -2,20 +2,23 @@
   "name": "todo_app",
   "version": "0.1.0",
   "private": true,
- "homepage": "https://Bhageswari21.github.io/Todo_App",
+  "homepage": "https://Bhageswari21.github.io/Todo_app",
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "babel-core": "^6.26.3",
+    "bootstrap": "^5.1.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.3",
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
